@@ -25,17 +25,18 @@ A collection of resources categorised by tech domains, languages, expertise and 
 
 ## Technology Stack used:
 
-<img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-<img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white"/>
+<img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/><img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+
+<!-- <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>  <img src="https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white"/> -->
 
  <!-- <img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/> <img src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/> -->
 
 - **Frontend**: HTML5, CSS3, JavaScript
-- **Backend**: Node.js, Express.js
+<!-- - **Backend**: Node.js, Express.js -->
 - **IDE**: VS Code
 - **Version Control**: Git and GitHub
-- **Database**: MongoDb
-- **Hosting**: Heroku, Netlify
+<!-- - **Database**: MongoDb
+- **Hosting**: Heroku, Netlify -->
 
 <!-- ## Slack Channel
 
@@ -59,8 +60,9 @@ A collection of resources categorised by tech domains, languages, expertise and 
 
 ```
 $ git clone https://github.com/DSC-JSS-NOIDA/QuickLearn.git
-$ cd QuickLearn/Frontend
 ```
+
+<!-- $ cd QuickLearn/Frontend -->
 
 - Open this folder in your favourite IDE. <br>
 - Run `npm install`.<br>
@@ -71,7 +73,7 @@ $ cd QuickLearn/Frontend
 - Save and commit your code.<br>
 - Push to your fork of the repository , navigate to original repository and make a pull request.<br>
 
-<strong>Backend</strong>
+<!-- <strong>Backend</strong>
 
 > **Note**: You must have Nodejs installed
 
@@ -80,7 +82,7 @@ $ cd QuickLearn/Frontend
 ```
 $ git clone https://github.com/DSC-JSS-NOIDA/QuickLearn.git
 $ cd QuickLearn
-```
+``` -->
 
 [![fork.png](https://i.postimg.cc/dtfvSW4H/fork.png)](https://postimg.cc/sv5tMJF7)
 
