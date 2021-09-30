@@ -23,6 +23,21 @@ body {
 html {
   scroll-behavior: smooth;
 }
+/* Navbar Section */
+#quickLearnLogoImg{
+    width:150px;
+}
+#navResourceBtn{
+    margin-left:auto;
+    width:18%;
+    text-align: center;
+    background-color: var(--primary-title);
+    border:3px solid var(--primary-title);
+    color:white;
+    font-size:1.2rem;
+    transition: 0.1s linear all;
+   
+}
 /* About Us Section */
 #mainHeading{
     font-family: serif;
