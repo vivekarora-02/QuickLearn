@@ -1,158 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!--Font Aswesome-->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <!--Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quick Learner</title>
+    <style>
+      .img-sz {
+        width: 10rem;
+        height: 8rem;
+      }
+    </style>
+  </head>
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="./css/styles.css" />
-  <!--Font Aswesome-->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-  <!--Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-  <!--Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <title>Quick Learner</title>
-  <style>
-    .img-sz {
-      width: 10rem;
-      height: 8rem;
-    }
-  </style>
-</head>
-
-<body>
-  <!--Navbar Section -->
-  <nav class="nav p-3">
-    <a class="nav-link active" aria-current="page" href="#"><img id="quickLearnLogoImg" src="./assets/images/logo.svg" alt="logo_img"/></a>
-    <a class="nav-link btn" href="#" id="navResourceBtn">Resources</a>
-  </nav>
-  <!-- Header Section -->
-  <header>
-    <div class="container my-5" id="aboutUs">
-      <!-- Text Section -->
-      <div class="row">
-        <div class="col-12 col-md-6 p-3 d-flex flex-column justify-content-center">
-          <h1 id="mainHeading">
-            Searching for Resources to Learn new Skills?<br />Here we are!
-          </h1>
-          <button class="btn px-3 py-2 mt-5" id="exploreBtn">Explore Resources</button>
-        </div>
-        <div class="col-12 col-md-6">
-          <!--Image/Illustration Needed-->
-          <img src="./assets/images/Group 540.svg" id="infoImg1" alt="img" />
-        </div>
-      </div>
-    </div>
-  </header>
-  <!--Header Section Ends -->
-  <section id="hackfest">
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <!--Image/Illustration Needed-->
-          <img src="./assets/images/Group 9.svg" id="infoImg2" alt="img" />
-        </div>
-        <div class="col-12 col-md-6 p-3 d-flex flex-column justify-content-center">
-          <h1 id="mainHeading">
-            Hackfest @GDSC
-          </h1>
-          <!-- <hr style="border: 2px solid #5cb85c" /> -->
-          <p class="my-3" id="mainParagraph">
-            Greetings! Hope you all are doing good. Want to contribute to open
-            source and don't know what organization to search? Welcome to our
-            website, we keep track on nearly every open source organization.
-            We post every necessary details related to any particular
-            organization you want to contribute in, whether is it active or
-            not, their registration details, their page link and so on. It
-            will be super easy for you to know about any organization. Hope
-            you like our services. Cheers.
-          </p>
-          <button class="btn px-3 py-2 mt-2" id="contributionBtn">See Contribution Guidlines</button>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- Feature Section Starts -->
-  <section id="features">
-    <div class="container mt-5 p-3">
-      <h2 id="featureHeading">Features</h2>
-      <!-- <hr style="border:4px solid blue;"/> -->
-      <!--Create a Feature Tray of 3-4 Items-->
-      <div class="d-flex container flex-wrap justify-content-center">
-        <div class="card m-3" style="width: 18rem">
-          <img src="./assets/images/explore.jpg" class="card-img-top img-sz mx-auto" alt="..." />
-          <div class="card-body text-center">
-            <h5 class="card-title">Explore..</h5>
-            <p class="card-text">Find the domain you want to explore</p>
+  <body>
+    <!--Navbar Section -->
+    <nav class="nav p-3">
+      <a class="nav-link active" aria-current="page" href="#"
+        ><img
+          id="quickLearnLogoImg"
+          src="./assets/images/logo.svg"
+          alt="logo_img"
+      /></a>
+      <a class="nav-link btn" href="#" id="navResourceBtn">Resources</a>
+    </nav>
+    <!-- Header Section -->
+    <header>
+      <div class="container my-5" id="aboutUs">
+        <!-- Text Section -->
+        <div class="row">
+          <div
+            class="
+              col-12 col-md-6
+              p-3
+              d-flex
+              flex-column
+              justify-content-center
+            "
+          >
+            <h1 id="mainHeading">
+              Searching for Resources to Learn new Skills?<br />Here we are!
+            </h1>
+            <button class="btn px-3 py-2 mt-5" id="exploreBtn">
+              Explore Resources
+            </button>
+          </div>
+          <div class="col-12 col-md-6">
+            <!--Image/Illustration Needed-->
+            <img src="./assets/images/Group 540.svg" id="infoImg1" alt="img" />
           </div>
         </div>
-
-        <div class="card m-3" style="width: 18rem">
-          <img src="./assets/images/choose.png" class="card-img-top img-sz mx-auto" alt="..." />
-          <div class="card-body text-center">
-            <h5 class="card-title">Choosing made easy</h5>
-            <p class="card-text">
-              Choose from plethora of topics to start with
+      </div>
+    </header>
+    <!--Header Section Ends -->
+    <section id="hackfest">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <!--Image/Illustration Needed-->
+            <img src="./assets/images/Group 9.svg" id="infoImg2" alt="img" />
+          </div>
+          <div
+            class="
+              col-12 col-md-6
+              p-3
+              d-flex
+              flex-column
+              justify-content-center
+            "
+          >
+            <h1 id="mainHeading">Hackfest @GDSC</h1>
+            <!-- <hr style="border: 2px solid #5cb85c" /> -->
+            <p class="my-3" id="mainParagraph">
+              Greetings! Hope you all are doing good. Want to contribute to open
+              source and don't know what organization to search? Welcome to our
+              website, we keep track on nearly every open source organization.
+              We post every necessary details related to any particular
+              organization you want to contribute in, whether is it active or
+              not, their registration details, their page link and so on. It
+              will be super easy for you to know about any organization. Hope
+              you like our services. Cheers.
             </p>
+            <button class="btn px-3 py-2 mt-2" id="contributionBtn">
+              See Contribution Guidlines
+            </button>
           </div>
         </div>
       </div>
+    </section>
+    <!-- Feature Section Starts -->
+    <section id="features">
+      <div class="container mt-5 p-3">
+        <h2 id="featureHeading">Features</h2>
+        <!-- <hr style="border:4px solid blue;"/> -->
+        <!--Create a Feature Tray of 3-4 Items-->
+        <div class="d-flex container flex-wrap justify-content-center">
+          <div class="card m-3" style="width: 18rem">
+            <img
+              src="./assets/images/explore.jpg"
+              class="card-img-top img-sz mx-auto"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Explore..</h5>
+              <p class="card-text">Find the domain you want to explore</p>
+            </div>
+          </div>
 
-      <div class="d-flex container flex-wrap justify-content-center">
-        <div class="card m-3" style="width: 18rem">
-          <img src="..." class="card-img-top img-sz mx-auto" alt="..." />
-          <div class="card-body text-center">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
+          <div class="card m-3" style="width: 18rem">
+            <img
+              src="./assets/images/choose.png"
+              class="card-img-top img-sz mx-auto"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Choosing made easy</h5>
+              <p class="card-text">
+                Choose from plethora of topics to start with
+              </p>
+            </div>
           </div>
         </div>
 
-        <div class="card m-3" style="width: 18rem">
-          <img src="./assets/images/typing.jpg" class="card-img-top img-sz mx-auto" alt="..." />
-          <div class="card-body text-center">
-            <h5 class="card-title">Learn Quick!</h5>
-            <p class="card-text">
-              Have fun while learning from the best resources we provide
-            </p>
+        <div class="d-flex container flex-wrap justify-content-center">
+          <div class="card m-3" style="width: 18rem">
+            <img
+              src="./assets/images/clear.png"
+              class="card-img-top img-sz mx-auto"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Comprehensible Content</h5>
+              <p class="card-text">
+                Clear and concise for anyone to understand
+              </p>
+            </div>
+          </div>
+
+          <div class="card m-3" style="width: 18rem">
+            <img
+              src="./assets/images/typing.jpg"
+              class="card-img-top img-sz mx-auto"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Learn Quick!</h5>
+              <p class="card-text">
+                Have fun while learning from the best resources we provide
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--Feature Section Ends -->
-  <!-- Resource Section Reference -->
-  <section id="resourceReference">
-    <div class="container-fluid my-3" id="resourceReferenceBox"
-      style="background-image: url('assets/images/bg-cta.jpg')">
-      <h2 id="resourceReferenceHeading">
-        Stop <br />
-        Searching
-        <br />
-        Start
-        <br />
-        Learning
-      </h2>
-      <button class="btn btn-outline-primary py-3 px-3 mt-5" id="referenceButton">
-        Start Learning
-      </button>
-    </div>
-  </section>
-  <!-- Footer Section -->
+    <!--Feature Section Ends -->
+    <!-- Resource Section Reference -->
+    <section id="resourceReference">
+      <div
+        class="container-fluid my-3"
+        id="resourceReferenceBox"
+        style="background-image: url('assets/images/bg-cta.jpg')"
+      >
+        <h2 id="resourceReferenceHeading">
+          Stop <br />
+          Searching
+          <br />
+          Start
+          <br />
+          Learning
+        </h2>
+        <button
+          class="btn btn-outline-primary py-3 px-3 mt-5"
+          id="referenceButton"
+        >
+          Start Learning
+        </button>
+      </div>
+    </section>
+    <!-- Footer Section -->
 
-  <!-- <section>
+    <!-- <section>
       <div style="width: 100%;" class="container footer d-flex flex-wrap">
           
             <div class="contact-table">
@@ -203,21 +258,31 @@
             </div>
         
         </section> -->
-  <footer>
-    <div class="footer d-flex flex-coloumn justify-content-center" >
-      Made with ❤ By <a href="https://dscjss.in">DSC JSSATEN</a>
-      <a href="https://github.com/dsc-jss-noida" classname=" text-black github-footer" rel="noopener noreferrer"
-        target="_blank">
-      </a>
-    </div>
-    <img src="./assets/images/logo.png" style="display:block;width:250px;margin:10px auto;" classname="m-5 img-logo" alt="gdsc_logo" />
-  </footer>
-  <!-- Footer Section Ends -->
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script src="./js/index.js"></script>
-</body>
-
+    <footer>
+      <div class="footer d-flex flex-coloumn justify-content-center">
+        Made with ❤ By <a href="https://dscjss.in">DSC JSSATEN</a>
+        <a
+          href="https://github.com/dsc-jss-noida"
+          classname=" text-black github-footer"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+        </a>
+      </div>
+      <img
+        src="./assets/images/logo.png"
+        style="display: block; width: 250px; margin: 10px auto"
+        classname="m-5 img-logo"
+        alt="gdsc_logo"
+      />
+    </footer>
+    <!-- Footer Section Ends -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
