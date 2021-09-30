@@ -1,87 +1,219 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="./css/styles.css" />
     <!--Font Aswesome-->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <!--Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
     <title>Quick Learner</title>
-</head>
+    <style>
+      .img-sz {
+        width: 10rem;
+        height: 8rem;
+      }
+    </style>
+  </head>
 
-<body>
+  <body>
     <!--Navbar Section -->
     <nav class="nav bg-dark p-3">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+        >Disabled</a
+      >
     </nav>
     <!-- Header Section -->
     <header>
-    <div class="container my-5" id="aboutUs">
+      <div class="container my-5" id="aboutUs">
         <!-- Text Section -->
         <div class="row">
-            <div class="col-12 col-md-6 p-3">
-                <h1 id="mainHeading">
-                    Searching for Resources to Learn new Skills?<br />Here we are!
-                </h1>
-                <hr style="border: 2px solid #5cb85c;">
-                <p id="mainParagraph">
-                    Greetings! Hope you all are doing good. Want to contribute to open source and don't know what
-                    organization to search? Welcome to our website, we keep track on nearly every open source
-                    organization. We post every necessary details related to any particular organization you want to
-                    contribute in, whether is it active or not, their registration details, their page link and so on.
-                    It will be super easy for you to know about any organization. Hope you like our services. Cheers.
-                </p>
-                <button class="btn btn-primary px-5 py-3">Explore Resources</button>
-            </div>
-            <div class="col-12 col-md-6">
-                <!--Image/Illustration Needed-->
-            </div>
+          <div class="col-12 col-md-6 p-3">
+            <h1 id="mainHeading">
+              Searching for Resources to Learn new Skills?<br />Here we are!
+            </h1>
+            <hr style="border: 2px solid #5cb85c" />
+            <p id="mainParagraph">
+              Greetings! Hope you all are doing good. Want to contribute to open
+              source and don't know what organization to search? Welcome to our
+              website, we keep track on nearly every open source organization.
+              We post every necessary details related to any particular
+              organization you want to contribute in, whether is it active or
+              not, their registration details, their page link and so on. It
+              will be super easy for you to know about any organization. Hope
+              you like our services. Cheers.
+            </p>
+            <button class="btn btn-primary px-5 py-3">Explore Resources</button>
+          </div>
+          <div class="col-12 col-md-6">
+            <!--Image/Illustration Needed-->
+          </div>
         </div>
-    </div>
+      </div>
     </header>
     <!--Header Section Ends -->
     <!-- Feature Section Starts -->
     <section id="features">
-    <div class="container-fluid mt-5 p-3">
+      <div class="container-fluid mt-5 p-3">
         <!--Create a Feature Tray of 3-4 Items-->
-    </div>
+        <div class="d-flex container flex-wrap justify-content-center">
+          <div class="card m-3" style="width: 18rem">
+            <img
+              src="./assets/images/explore.jpg"
+              class="card-img-top img-sz mx-auto"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Explore..</h5>
+              <p class="card-text">Find the domain you want to explore</p>
+            </div>
+          </div>
+
+          <div class="card m-3" style="width: 18rem">
+            <img
+              src="./assets/images/choose.png"
+              class="card-img-top img-sz mx-auto"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Choosing made easy</h5>
+              <p class="card-text">
+                Choose from plethora of topics to start with
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex container flex-wrap justify-content-center">
+          <div class="card m-3" style="width: 18rem">
+            <img src="..." class="card-img-top img-sz mx-auto" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+
+          <div class="card m-3" style="width: 18rem">
+            <img
+              src="./assets/images/typing.jpg"
+              class="card-img-top img-sz mx-auto"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Learn Quick!</h5>
+              <p class="card-text">
+                Have fun while learning from the best resources we provide
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--Feature Section Ends -->
     <!-- Resource Section Reference -->
     <section id="resourceReference">
-    <div class="container-fluid my-3" id="resourceReferenceBox"  style="background-image:url('assets/img/bg-cta.jpg');">
-        <h2 id="resourceReferenceHeading">Stop <br/>
-        Searching
-        <br>
-        Start
-        <br/>
-        Learning
+      <div
+        class="container-fluid my-3"
+        id="resourceReferenceBox"
+        style="background-image: url('assets/img/bg-cta.jpg')"
+      >
+        <h2 id="resourceReferenceHeading">
+          Stop <br />
+          Searching
+          <br />
+          Start
+          <br />
+          Learning
         </h2>
-        <button class="btn py-3 px-3 mt-5" id="referenceButton">Start Learning</button>
-
-    </div>
+        <button class="btn py-3 px-3 mt-5" id="referenceButton">
+          Start Learning
+        </button>
+      </div>
     </section>
     <!-- Footer Section -->
 
+    <footer>
+      <div style="width: 100%;" class="container footer d-flex flex-wrap">
+          
+            <div class="contact-table">
+                <form action="https://formspree.io/f/xdoynnyq" method="POST" id="my-form">
+                  <div class="input-container">
+                    <label class="contact-inputs" for="validationCustom01">Your Name :</label>
+                    <input type="text" class="form-control contact-inputs-tags" id="validationCustom01" placeholder="Enter your name" name="name" autocomplete="off">
+                  </div>
+                  <div class="input-container">
+                    <label class="contact-inputs" for="validationCustom02">Your Email :</label>
+                    <input type="email" class="form-control contact-input-tags" id="validationCustom02" placeholder="Enter your email address" name="email" autocomplete="off">
+                  </div>
+                  <div class="input-container">
+                    <label class="contact-inputs" for="validationCustom03">Message :</label>
+                    <textarea type="text" class="form-control contact-input-tags" id="validationCustom03" placeholder="Enter your message here . . ." rows="4" name="message"></textarea>
+                  </div>
+                  <div>
+                    <button class="btn btn-md" type="submit">SUBMIT</button>
+                  </div>
+                </form>
+                <div id="status"></div>
+              </div>
+
+            
+            <div id="social-section" class="col-md-4">
+              <div style="
+                  padding: 0px 20px;
+                  padding-bottom: 15px;
+                  border-bottom: 3.5px solid grey;
+                ">
+                <p class="footer-details">
+                  <a href="https://www.dscjss.in/" target="_blank"><span class="contacts"><i class="fa fa-map-marker mr-5 social-icon" aria-hidden="true"></i>DSC JSS Noida</span></a>
+                </p>
+                <p class="footer-details">
+                  <a href="mailto:dscjssnoida@gmail.com" target="_blank"><span class="contacts"><i class="fa fa-envelope mr-5 social-icon" aria-hidden="true"></i>dscjssnoida@gmail.com</span></a>
+                </p>
+                <p class="footer-details">
+                  <a href="tel:+91 9876543310"><span class="contacts"><i class="fa fa-phone mr-5 social-icon" aria-hidden="true"></i>+91 9876543310</span></a>
+                </p>
+              </div>
+              <div id="social-media-icons">
+                <a href="https://www.facebook.com/dscjssnoida/" target="_blank" title="Facebook"><i class="fa fa-facebook-square social-media" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/company/dsc-jssaten/" target="_blank" title="Linkedin"><i class="fa fa-linkedin-square social-media" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/DSCJSSATEN" target="_blank" title="Twitter"><i class="fa fa-twitter social-media" aria-hidden="true"></i></a>
+                <a href="https://github.com/DSC-JSS-NOIDA" target="_blank" title="Github"><i class="fa fa-github social-media" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/dscjssaten/?igshid=9ubqtp1ssqsi" target="_blank" title="Instagram"><i class="fa fa-instagram social-media" aria-hidden="true"></i></a>
+              </div>
+            </div>
+        
+    </footer>
     <!-- Footer Section Ends -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/index.js"></script>
-</body>
-
+  </body>
 </html>
