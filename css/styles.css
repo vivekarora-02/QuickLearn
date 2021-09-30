@@ -1,0 +1,54 @@
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  z-index: -10;
+  transition: 2s;
+  background-color: var(--primary-background);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* About Us Section */
+#mainHeading{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size:2.5rem;
+}
+#mainParagraph{
+    font-size: 20px;
+}
+/* Feature Section */
+
+/* Reference Section */
+#resourceReferenceBox{
+    display:flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height:900px;
+    padding:30px;
+    filter:brightness(80%);
+}
+#resourceReferenceHeading{
+    font-size:4rem;
+    line-height: 5.5rem;
+    color:white;
+    margin-left:3%;
+
+}
+#referenceButton{
+    border-radius:45px;
+    font-size: 1.3rem;
+    width:260px;
+    margin-left:3%;
+    border:2px solid white;
+    color:white;
+}
+/* Responsiveness */
+@media screen and (max-width:768px){
+    #mainHeading{
+        font-size:2rem;
+    }
+}
