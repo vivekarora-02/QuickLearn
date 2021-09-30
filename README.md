@@ -60,16 +60,17 @@ A collection of resources categorised by tech domains, languages, expertise and 
 
 ```
 $ git clone https://github.com/DSC-JSS-NOIDA/QuickLearn.git
+$ cd QuickLearn
 ```
 
-<!-- $ cd QuickLearn/Frontend -->
-
+<!--
 - Open this folder in your favourite IDE. <br>
 - Run `npm install`.<br>
 - Run `git pull` command to sync with remote repo.<br>
-  <br>
+  <br> -->
+<!-- - Run `npm start` for starting server. -->
+
 - Now to add your resource to website, add an object with keys same as listed in existing objects in the file.<br>
-- Run `npm start` for starting server.
 - Save and commit your code.<br>
 - Push to your fork of the repository , navigate to original repository and make a pull request.<br>
 
@@ -89,3 +90,28 @@ $ cd QuickLearn
 <hr>
 
 [![clone.png](https://i.postimg.cc/XJqdbfZY/clone.png)](https://postimg.cc/47CmvhbD)<hr>
+
+[![clone-git-Bash.png](https://i.postimg.cc/ncdF20Qr/clone-git-Bash.png)](https://postimg.cc/gnZbkysb)
+
+<hr>
+
+- Make changes to the code(for ex- add an update route)
+- Stage your changes using:
+
+```
+$ git add .
+```
+
+- Commit your changes using:
+
+```
+$ git commit -m "add any comment"
+```
+
+- Push the changes to the forked repository using:
+
+```
+$ git push
+```
+
+- Navigate to the original repository and make a pull request
