@@ -60,6 +60,18 @@ html {
   font-size: 22px;
   font-weight: 500;
 }
+footer {
+  border-top: 2px solid var(--primary-border-card);
+  width: 100%;
+  color: #746464;
+  text-align: center;
+  flex: none;
+  position: sticky;
+  top: 100%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  align-items: center;
+}
 #social-media-icons {
   margin-top: 20px;
   padding: 0px 50px;
