@@ -1,16 +1,6 @@
 [
     {
         "title": "Test 1",
-        "category": "web",
-        "level": "beginner",
-        "link":"https://www.amandixit.me"
-        
-    },
-    {
-        "title": "Test 2",
-        "category": "web",
-        "level": "beginner",
-        "link":"https://www.amandixit.me"
-        
-    },
+        "link": "https://www.amandixit.me"
+    }
 ]

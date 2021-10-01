@@ -1,17 +1,6 @@
 [
-  {
-      "title":"MDN DOCS",
-      "link":"https://developer.mozilla.org/",
-      "imgurl":"./assets/images/explore.jpg"
-  },
-  {
-      "title":"MDN DOCS",
-      "link":"https://developer.mozilla.org/",
-      "imgurl":"./assets/images/explore.jpg"
-  },
-  {
-      "title":"MDN DOCS",
-      "link":"https://developer.mozilla.org/",
-      "imgurl":"./assets/images/explore.jpg"
-  }
+    {
+        "title": "MDN DOCS",
+        "link": "https://developer.mozilla.org/"
+    }
 ]
