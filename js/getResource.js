@@ -59,7 +59,17 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
             ares = await fetch(`../data/domains/${value}/advanced.json`);
             adata = await ares.json();
         }
-        
+        else{
+             /* beginner */
+             bres = await fetch(`../data/domains/${value}/beginner.json`);
+             bdata = await bres.json();
+             /* intermediate */
+             ires = await fetch(`../data/domains/${value}/intermediate.json`);
+             idata = await ires.json();
+             /* advanced */
+             ares = await fetch(`../data/domains/${value}/advanced.json`);
+             adata = await ares.json();
+        }
         
         /* beginner data */
         // later we can have loader
