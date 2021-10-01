@@ -1,12 +1,6 @@
 [
     {
-        "title":"C++",
-        "link":"https://developer.mozilla.org/",
-        "imgurl":"./assets/images/explore.jpg"
-    },
-    {
-        "title":"c++1",
-        "link":"https://developer.mozilla.org/",
-        "imgurl":"./assets/images/explore.jpg"
+        "title": "C++",
+        "link": "https://developer.mozilla.org/"
     }
 ]

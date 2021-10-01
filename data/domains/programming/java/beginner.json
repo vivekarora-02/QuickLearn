@@ -1,12 +1,6 @@
 [
     {
-        "title":"Java",
-        "link":"https://developer.mozilla.org/",
-        "imgurl":"./assets/images/explore.jpg"
-    },
-    {
-        "title":"Java1",
-        "link":"https://developer.mozilla.org/",
-        "imgurl":"./assets/images/explore.jpg"
+        "title": "Java",
+        "link": "https://developer.mozilla.org/"
     }
 ]
