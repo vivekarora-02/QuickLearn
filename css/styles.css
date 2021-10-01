@@ -130,11 +130,11 @@ html {
   border: none;
   background: none;
   margin: 0.5rem auto;
-  width:100%;
+  width: 100%;
   box-shadow: 1px 1px 5px var(--primary-title);
-  border-radius:20px;
-  font-family:serif;
-  color:#6940d3;
+  border-radius: 20px;
+  font-family: serif;
+  color: #6940d3;
 }
 
 #sidebar {
@@ -143,13 +143,17 @@ html {
   border-radius: 15px;
   box-shadow: 1px 1px 30px var(--primmary-shadow);
 }
-#categoryText{
-  font-weight:600;
-  font-size:1.5rem;
-  text-align:center;
+#categoryText {
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
 }
-#resourceContainer{
-  display:flex;
+#resourceContainer {
+  display: flex;
+}
+
+.category ul {
+  display: none;
 }
 /* Responsiveness */
 @media screen and (max-width: 768px) {
