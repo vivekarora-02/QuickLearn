@@ -93,7 +93,11 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
                 }
             }
             else {
-                beginnerResourceBox.innerHTML += "No things to show";
+                beginnerResourceBox.innerHTML += `<img
+                src="./assets/images/empty.jpg"
+                class="card-img-top img-sz mx-auto"
+                alt="..."
+              />`
             }
             /* Intermediate Resource Box */
 
@@ -116,7 +120,11 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
                 }
             }
             else {
-                intermediateResourceBox.innerHTML += "No things to show";
+                intermediateResourceBox.innerHTML += `<img
+                src="./assets/images/empty.jpg"
+                class="card-img-top img-sz mx-auto"
+                alt="..."
+              />`;
             }
             /* Advanced Resource Box */
             if (adata != "") {
@@ -138,7 +146,11 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
                 }
             }
             else {
-                advancedResourceBox.innerHTML += "Nothing to display";
+                advancedResourceBox.innerHTML += `<img
+                src="./assets/images/empty.jpg"
+                class="card-img-top img-sz mx-auto"
+                alt="..."
+              />`;
             }
         }, 300);
 
