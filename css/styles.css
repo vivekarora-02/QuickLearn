@@ -132,9 +132,10 @@ html {
   margin: 0.5rem auto;
   width: 100%;
   box-shadow: 1px 1px 5px var(--primary-title);
-  border-radius: 20px;
-  font-family: serif;
-  color: #6940d3;
+  border-radius: 20px; 
+  font-family: sans-serif;
+  color:var(--primary-label);
+  padding:8px;
 }
 
 #sidebar {
@@ -152,8 +153,21 @@ html {
   display: flex;
 }
 
-.category ul {
+.category .select-option {
   display: none;
+}
+.select-category-btn{
+  display: block;
+  width:100%;
+  color: gray;
+  margin:0px;
+  text-align: left;
+  font-weight: 800;
+  font-size: 1.2rem;
+  font-family: monospace;
+}
+.select-category-btn:hover{
+  background-color: var(--primary-contact-background);
 }
 /* Responsiveness */
 @media screen and (max-width: 768px) {
