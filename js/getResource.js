@@ -86,7 +86,7 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
           />
           <div class="card-body text-center">
             <h5 class="card-title">${bdata[i].title}</h5>
-            <p class="card-text">Find the domain you want to explore</p>
+            <a href="${bdata[i].link}" class="btn view-more-btn" target="_blank">View More</a>
           </div>
         </div>
       </div>`;
@@ -113,7 +113,7 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
           />
           <div class="card-body text-center">
             <h5 class="card-title">${idata[i].title}</h5>
-            <p class="card-text">Find the domain you want to explore</p>
+            <a href="${idata[i].link}" class="btn view-more-btn" target="_blank">View More</a>
           </div>
         </div>
       </div>`;
@@ -133,13 +133,13 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
         <div class="col-6 col-md-3">
         <div class="card m-3" style="width: 15rem">
           <img
-            src="${adata[i].imgurl}"
+          src="./assets/images/explore.jpg"
             class="card-img-top img-sz mx-auto"
             alt="..."
           />
           <div class="card-body text-center">
             <h5 class="card-title">${adata[i].title}</h5>
-            <p class="card-text">Find the domain you want to explore</p>
+            <a href="${adata[i].link}" class="btn view-more-btn" target="_blank">View More</a>
           </div>
         </div>
       </div>`;

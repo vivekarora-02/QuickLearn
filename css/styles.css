@@ -175,7 +175,17 @@ html {
 .select-category-btn:hover{
   background-color: var(--primary-contact-background);
 }
-
+.view-more-btn{
+  width:100%;
+  background-color:var(--primary-title);
+  color:white;
+  transition:0.03s linear all;
+}
+.view-more-btn:hover{
+  background-color:white;
+  color:var(--primary-title);
+  border:2px solid var(--primary-title);
+}
 /* Footer */
 footer {
   border-top: 2px solid var(--primary-border-card);
