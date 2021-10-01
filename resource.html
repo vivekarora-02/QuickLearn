@@ -1,74 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="./css/styles.css" />
-    <!--Font Aswesome-->
-    <link
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
-    <!--Bootstrap Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-    />
-    <!--Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <title>Quick Learner</title>
-    <style>
-      .img-sz {
-        width: 10rem;
-        height: 8rem;
-      }
-    </style>
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <body id="resource">
-    <!--Navbar Section -->
-    <nav class="nav p-3">
-      <a class="nav-link active" aria-current="page" href="#"
-        ><img
-          id="quickLearnLogoImg"
-          src="./assets/images/logo.svg"
-          alt="logo_img"
-      /></a>
-      <a class="nav-link btn" href="./index.html" id="navResourceBtn">Home</a>
-    </nav>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <!--Font Aswesome-->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <!--Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <title>Quick Learner</title>
+  <style>
+    .img-sz {
+      width: 10rem;
+      height: 8rem;
+    }
+  </style>
+</head>
 
+<body id="resource">
+  <!--Navbar Section -->
+  <nav class="nav p-3">
+    <a class="nav-link active" aria-current="page" href="#"><img id="quickLearnLogoImg" src="./assets/images/logo.svg"
+        alt="logo_img" /></a>
+    <a class="nav-link btn" href="./index.html" id="navResourceBtn">Home</a>
+  </nav>
+  <div class="container-fluid my-3" id="resourceContainer">
     <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 m-3 mx-4">
-      <a
-        href="/"
-        class="
-          d-flex
-          align-items-center
-          mb-3 mb-md-0
-          me-md-auto
-          link-dark
-          text-decoration-none
-        "
-      >
-        <svg class="bi me-2" width="40" height="32">
-          <use xlink:href="#bootstrap"></use>
-        </svg>
-        <span class="fs-4">Categories</span>
-      </a>
+      <h4 id="categoryText">Categories</h4>
       <hr />
       <ul class="nav nav-pills flex-column mb-auto">
         <li>
@@ -105,33 +74,67 @@
       </ul>
       <hr />
     </div>
-    <!-- Resource Section Reference -->
-
-    <footer>
-      <div class="footer d-flex flex-coloumn justify-content-center">
-        Made with ❤ By <a href="https://dscjss.in">DSC JSSATEN</a>
-        <a
-          href="https://github.com/dsc-jss-noida"
-          classname=" text-black github-footer"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-        </a>
+    <!-- Sidebar Ends -->
+    <main>
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-6 col-md-4">
+            <div class="card m-3" style="width: 18rem">
+              <img src="./assets/images/explore.jpg" class="card-img-top img-sz mx-auto" alt="..." />
+              <div class="card-body text-center">
+                <h5 class="card-title">Explore..</h5>
+                <p class="card-text">Find the domain you want to explore</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card m-3" style="width: 18rem">
+              <img src="./assets/images/explore.jpg" class="card-img-top img-sz mx-auto" alt="..." />
+              <div class="card-body text-center">
+                <h5 class="card-title">Explore..</h5>
+                <p class="card-text">Find the domain you want to explore</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card m-3" style="width: 18rem">
+              <img src="./assets/images/explore.jpg" class="card-img-top img-sz mx-auto" alt="..." />
+              <div class="card-body text-center">
+                <h5 class="card-title">Explore..</h5>
+                <p class="card-text">Find the domain you want to explore</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card m-3" style="width: 18rem">
+              <img src="./assets/images/explore.jpg" class="card-img-top img-sz mx-auto" alt="..." />
+              <div class="card-body text-center">
+                <h5 class="card-title">Explore..</h5>
+                <p class="card-text">Find the domain you want to explore</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <img
-        src="./assets/images/logo.png"
-        style="display: block; width: 250px; margin: 10px auto"
-        classname="m-5 img-logo"
-        alt="gdsc_logo"
-      />
-    </footer>
-    <!-- Footer Section Ends -->
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./js/index.js"></script>
-  </body>
+    </main>
+  </div>
+
+  <footer>
+    <div class="footer d-flex flex-coloumn justify-content-center">
+      Made with ❤ By <a href="https://dscjss.in">DSC JSSATEN</a>
+      <a href="https://github.com/dsc-jss-noida" classname=" text-black github-footer" rel="noopener noreferrer"
+        target="_blank">
+      </a>
+    </div>
+    <img src="./assets/images/logo.png" style="display: block; width: 250px; margin: 10px auto" classname="m-5 img-logo"
+      alt="gdsc_logo" />
+  </footer>
+  <!-- Footer Section Ends -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
+</body>
+
 </html>
