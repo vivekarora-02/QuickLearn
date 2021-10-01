@@ -141,7 +141,7 @@ $ git push
 ## Connect with us
 
 <div align="center">
- <a href="https://dscjss.in/"><img src="https://user-images.githubusercontent.com/42115530/94302134-5c28c680-ff89-11ea-9ca4-5dcdd4279786.png"  height=100px /></a> <br><br> 
+ <a href="https://dscjss.in/"><img src="./assets/images/gdsc-logo.png"  height=100px /></a> <br><br> 
 <a href="https://github.com/DSC-JSS-NOIDA" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
@@ -164,3 +164,5 @@ $ git push
 <img src=https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white alt=youtube style="margin-bottom: 5px;" />
 </a> 
 </div>
+
+<!-- "https://user-images.githubusercontent.com/42115530/94302134-5c28c680-ff89-11ea-9ca4-5dcdd4279786.png" -->
