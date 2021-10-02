@@ -157,6 +157,9 @@ $ git push
 <a href="https://www.instagram.com/dscjssaten/?igshid=9ubqtp1ssqsi" target="_blank">
 <img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
 </a>
+ <a href="https://www.instagram.com/dscjssaten/?igshid=9ubqtp1ssqsi" target="_blank">
+<img src=https://img.shields.io/badge/discord-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
+</a>
 <a href="https://medium.com/dsc-jss-noida" target="_blank">
 <img src=https://img.shields.io/badge/medium-%23292929.svg?&style=for-the-badge&logo=medium&logoColor=white alt=medium style="margin-bottom: 5px;" />
 </a>  
