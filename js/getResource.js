@@ -10,7 +10,8 @@ const advancedResourceBox = document.getElementById("advancedResourceBox");
 // const domains = ["web","web","web"];
 const programming = ["c++", "java", "python"];
 const programmingLength = programming.length;
-const webdata = ["frontend", "backend", "mern"];
+const domains = ["c++", "java", "python", "frontend", "backend", "mern", "android", "flutter", "ios", "react_native", "general",
+  "illustrations","motion","photo","sound","ui-ux","video","ai","computer_vision","deep_learning","machine_learning","big_data","statistics"];
 let bres = "";
 let bdata = "";
 let ires = "";
@@ -43,62 +44,16 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
     advancedResourceBox.innerHTML = "";
     const value = selectCategoryBtn[i].value;
 
-    /* To check whether an extra parameter need to be passed in url */
-    // In case of Web it is needed 
-    if (value == "programming") {
-      /* beginner*/
-      bres = await fetch(`../data/domains/${value}/${programming[i]}/beginner.json`);
-      bdata = await bres.json();
-      /* intermediate */
-      ires = await fetch(`../data/domains/${value}/${programming[i]}/intermediate.json`);
-      idata = await ires.json();
-      /* advanced */
-      ares = await fetch(`../data/domains/${value}/${programming[i]}/advanced.json`);
-      adata = await ares.json();
-    } else if (value == "web") {
-      /* beginner*/
-      bres = await fetch(`../data/domains/${value}/${webdata[i-programmingLength]}/beginner.json`);
-      bdata = await bres.json();
-      /* intermediate */
-      ires = await fetch(`../data/domains/${value}/${webdata[i-programmingLength]}/intermediate.json`);
-      idata = await ires.json();
-      /* advanced */
-      ares = await fetch(`../data/domains/${value}/${webdata[i-3]}/advanced.json`);
-      adata = await ares.json();
-
-    } else if (value == "android") {
-      /* beginner */
-      bres = await fetch(`../data/domains/${value}/beginner.json`);
-      bdata = await bres.json();
-      /* intermediate */
-      ires = await fetch(`../data/domains/${value}/intermediate.json`);
-      idata = await ires.json();
-      /* advanced */
-      ares = await fetch(`../data/domains/${value}/advanced.json`);
-      adata = await ares.json();
-    }
-    else if(value=="designing") {
-      /* beginner */
-      bres = await fetch(`../data/domains/${value}/beginner.json`);
-      bdata = await bres.json();
-      /* intermediate */
-      ires = await fetch(`../data/domains/${value}/intermediate.json`);
-      idata = await ires.json();
-      /* advanced */
-      ares = await fetch(`../data/domains/${value}/advanced.json`);
-      adata = await ares.json();
-    }
-    else {
-       /* beginner */
-       bres = await fetch(`../data/domains/${value}/beginner.json`);
-       bdata = await bres.json();
-       /* intermediate */
-       ires = await fetch(`../data/domains/${value}/intermediate.json`);
-       idata = await ires.json();
-       /* advanced */
-       ares = await fetch(`../data/domains/${value}/advanced.json`);
-       adata = await ares.json();
-    }
+     /* beginner*/
+     bres = await fetch(`./data/domains/${value}/${domains[i]}/beginner.json`);
+     bdata = await bres.json();
+     /* intermediate */
+     ires = await fetch(`./data/domains/${value}/${domains[i]}/intermediate.json`);
+     idata = await ires.json();
+     /* advanced */
+     ares = await fetch(`./data/domains/${value}/${domains[i]}/advanced.json`);
+    adata = await ares.json();
+    
     /* beginner data */
     // later we can have loader
     setTimeout(() => {
