@@ -1,0 +1,135 @@
+@logo-size: 269px;
+
+.instagram-logo {
+    @REFERENCE_LOGO_SIZE: 269px;
+    @REFERENCE_LOGO_BORDER_WIDTH: 17px;
+    @LOGO_SCALING_RATIO: @logo-size / @REFERENCE_LOGO_SIZE;
+    @LOGO_BORDER_WIDTH: @REFERENCE_LOGO_BORDER_WIDTH * @LOGO_SCALING_RATIO;
+    
+    position: relative;
+    width: @logo-size;
+    height: @logo-size;
+    overflow: hidden;
+    background: linear-gradient(145deg, #3051F1 10%, #C92BB7 70%) no-repeat;
+    border-radius: 62px * @LOGO_SCALING_RATIO;
+    box-shadow: 0px (2px * @LOGO_SCALING_RATIO) (9px * @LOGO_SCALING_RATIO) rgba(0,0,0,0.25);
+
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+        content: '';
+        background: radial-gradient(circle farthest-corner at 28% 100% ,
+            #FCDF8F 0%, 
+            #FBD377 10%,
+            #FA8E37 22%,
+            #F73344 35%,
+            fade(#F73344, 0%) 65%
+        ) no-repeat;
+    }
+    
+    &, * {
+        box-sizing: border-box;
+    }
+    
+    * {
+        position: absolute;
+        display: block;
+    }
+    
+    // Inner Square
+    > div {
+        @inner-square-size: 197px;
+        @inner-square-size-normalized: @inner-square-size * @LOGO_SCALING_RATIO;
+        @inner-square-margin: (@logo-size - @inner-square-size-normalized) / 2;
+        top: @inner-square-margin;
+        left: @inner-square-margin;
+        width: @inner-square-size-normalized;
+        height: @inner-square-size-normalized;
+        border-radius: 57px * @LOGO_SCALING_RATIO;
+        
+        border: @LOGO_BORDER_WIDTH #ffffff solid;
+        
+        // Lens
+        > div:nth-child(1) {
+            @lens-size: 100px;
+            @lens-size-normalized: @lens-size * @LOGO_SCALING_RATIO;
+            @lens-margin: (@inner-square-size-normalized - @lens-size-normalized) / 2 - @LOGO_BORDER_WIDTH;
+            top: @lens-margin;
+            left: @lens-margin;
+            width: @lens-size-normalized;
+            height: @lens-size-normalized;
+            border-radius: 50%;
+            border: @LOGO_BORDER_WIDTH #ffffff solid;
+        }
+
+        // Flash Light
+        > div:nth-child(2) {
+            @flash-size: 23px;
+            @flash-size-normalized: @flash-size * @LOGO_SCALING_RATIO;
+            @flash-margin: 17px * @LOGO_SCALING_RATIO;
+            display: block;
+            width: @flash-size-normalized;
+            height: @flash-size-normalized;
+            background-color: #ffffff;
+            border-radius: 50%;
+            right: @flash-margin;
+            top: @flash-margin;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-preview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter-button {
+    @twitter-brand-color: #55ACEE;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    font-family: monospace;
+    text-decoration:none;
+    background: rgba(0,0,0,0);
+    color: @twitter-brand-color;
+    border-radius: 0px 0px 10px 0px;
+    padding: 10px;
+    transition: 0.3s all;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0);
+
+    &:hover {
+        background-color: @twitter-brand-color;
+        color: #ffffff;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+    }
+}
