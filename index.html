@@ -204,14 +204,7 @@
         </h2>
 
         <!-- link to resource page -->
-        <a href="#"
-          ><button
-            class="btn btn-outline-primary py-3 px-3 mt-5"
-            id="referenceButton"
-          >
-            Start Learning
-          </button></a
-        >
+          <a href="./resource.html" class="mybutton"><span></span>START LEARNING</a>
       </div>
     </section>
     <!-- Footer Section -->
@@ -292,6 +285,21 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(e){
+            $('.mybutton').on('mouseenter',function(e){
+                x=e.pageX - $(this).offset().left;
+                y=e.pageY - $(this).offset().top;
+                $(this).find('span').css({top:y, left:x})
+            })
+            $('.mybutton').on('mouseout',function(e){
+                x=e.pageX - $(this).offset().left;
+                y=e.pageY - $(this).offset().top;
+                $(this).find('span').css({top:y, left:x})
+            })
+        })
+    </script>
     <script src="./js/index.js"></script>
   </body>
 </html>
