@@ -3,4 +3,16 @@
         "title": "MDN DOCS",
         "link": "https://developer.mozilla.org/"
     }
+    ,
+    {
+        "title": "W3Schools",
+        "link": "https://www.w3schools.com/whatis/"  
+    }
+    ,
+    {
+        "title": "freecodecamp.org",
+        "link": "https://www.freecodecamp.org/news/learn-web-development-for-free/"  
+    }
+
+    
 ]
