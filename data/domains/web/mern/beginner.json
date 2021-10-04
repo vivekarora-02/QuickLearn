@@ -2,5 +2,9 @@
     {
         "title": "MDN DOCS",
         "link": "https://developer.mozilla.org/"
+    },
+    {
+        "title": "React",
+        "link": "https://facebook.github.io/react/"
     }
 ]
