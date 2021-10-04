@@ -69,7 +69,7 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
           />
           <div class="card-body text-center">
             <h5 class="card-title">${bdata[i].title}</h5>
-            <a href="${bdata[i].link}" class="btn view-more-btn" target="_blank">View More</a>
+            <a href="${bdata[i]}" class="btn view-more-btn" target="_blank">View More</a>
           </div>
         </div>
       </div>`;
